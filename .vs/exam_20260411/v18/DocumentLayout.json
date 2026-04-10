@@ -1,0 +1,526 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\producteditorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\producteditorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\producteditorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\producteditorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\orderswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\orderswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\orderswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\orderswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\ordereditorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\ordereditorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\ordereditorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\ordereditorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\converters\\pricevisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\converters\\pricevisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\converters\\discounttocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\converters\\discounttocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\pickuppoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\pickuppoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgdataaccess\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C202C6B8-98BE-4EA0-925D-0A9755D2370F}|pgDataAccess\\pgDataAccess.csproj|solutionrelative:pgdataaccess\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|c:\\users\\\u0430\u043B\u0435\u0441\u044F\\downloads\\exam_20260411-main (1)\\exam_20260411-main\\wpfapp\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B2BF9D4F-B7C5-4542-9F5B-114480F68CAC}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductEditorWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\ProductEditorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\ProductEditorWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\ProductEditorWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\ProductEditorWindow.xaml.cs",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAQwFABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:32:08.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\App.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\App.xaml",
+              "RelativeToolTip": "WpfApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-09T16:30:23.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:35:35.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WpfApp\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "WpfApp\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T16:30:27.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductEditorWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\ProductEditorWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\ProductEditorWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\ProductEditorWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\ProductEditorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-09T18:31:48.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\OrdersWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\OrdersWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\OrdersWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\OrdersWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:34:32.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\OrdersWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\OrdersWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\OrdersWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\OrdersWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-09T18:34:20.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderEditorWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\OrderEditorWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\OrderEditorWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\OrderEditorWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\OrderEditorWindow.xaml.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAwNoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:38:37.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderEditorWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\OrderEditorWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\OrderEditorWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\OrderEditorWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\OrderEditorWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-09T18:38:15.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAAACUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:26:10.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-09T18:19:30.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:11:46.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-09T18:11:23.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PriceVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Converters\\PriceVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Converters\\PriceVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Converters\\PriceVisibilityConverter.cs",
+              "RelativeToolTip": "WpfApp\\Converters\\PriceVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:08:53.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DiscountToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Converters\\DiscountToColorConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Converters\\DiscountToColorConverter.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\Converters\\DiscountToColorConverter.cs",
+              "RelativeToolTip": "WpfApp\\Converters\\DiscountToColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:06:55.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Services\\ProductService.cs",
+              "RelativeToolTip": "pgDataAccess\\Services\\ProductService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAqwJwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:59:20.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Services\\OrderService.cs",
+              "RelativeToolTip": "pgDataAccess\\Services\\OrderService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:03:12.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Services\\AuthService.cs",
+              "RelativeToolTip": "pgDataAccess\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:04:12.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\User.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\User.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:44:31.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Supplier.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:47:12.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Role.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:43:18.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Product.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\Product.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:48:42.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PickupPoint.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\PickupPoint.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\PickupPoint.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\PickupPoint.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\PickupPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:49:38.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\OrderItem.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:51:10.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Order.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:50:19.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Manufacturer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Manufacturer.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\Manufacturer.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Manufacturer.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\Manufacturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:46:29.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Models\\Category.cs",
+              "RelativeToolTip": "pgDataAccess\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:45:32.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "pgDataAccess\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "pgDataAccess\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:54:03.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\ReadMe.txt",
+              "RelativeDocumentMoniker": "pgDataAccess\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\pgDataAccess\\ReadMe.txt",
+              "RelativeToolTip": "pgDataAccess\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-09T16:30:37.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\ReadMe.txt",
+              "RelativeDocumentMoniker": "WpfApp\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u0441\u044F\\Downloads\\exam_20260411-main (1)\\exam_20260411-main\\WpfApp\\ReadMe.txt",
+              "RelativeToolTip": "WpfApp\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-09T16:30:35.551Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
