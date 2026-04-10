@@ -1,0 +1,231 @@
+1. Создала БД sadiullina с пользователем app (уже был)
+GRANT CONNECT ON DATABASE sadiullina TO app;
+GRANT USAGE ON SCHEMA public TO app;
+GRANT ALL PRIVILEGES ON DATABASE sadiullina TO app;
+
+-Если app не было, то:
+CREATE DATABASE sadiullina;
+CREATE USER app WITH PASSWORD '123456789';
+GRANT CONNECT ON DATABASE sadiullina TO app;
+GRANT USAGE ON SCHEMA public TO app;
+GRANT ALL PRIVILEGES ON DATABASE sadiullina TO app;
+
+-Если хотите, чтобы app мог создавать таблицы:
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO app;
+
+2. Создание таблиц (скрипт БД)
+-В pgDataAccess потом будет EF Core, но сначала создадим схему вручную (или через DBSchema, как сказано в задании).
+
+-Файл: script.sql (сохраните в проект) Запустите этот скрипт в pgAdmin (Query Tool) для БД sadiullina.
+
+-- Таблица ролей
+CREATE TABLE roles (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL UNIQUE
+);
+
+-- Таблица пользователей
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    login VARCHAR(100) NOT NULL UNIQUE,
+    password_hash VARCHAR(100) NOT NULL,
+    full_name VARCHAR(200) NOT NULL,
+    role_id INT NOT NULL REFERENCES roles(id) ON DELETE RESTRICT
+);
+
+-- Категории товаров
+CREATE TABLE categories (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL UNIQUE
+);
+
+-- Производители
+CREATE TABLE manufacturers (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL UNIQUE
+);
+
+-- Поставщики
+CREATE TABLE suppliers (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL UNIQUE
+);
+
+-- Товары
+CREATE TABLE products (
+    article VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(200) NOT NULL,
+    unit VARCHAR(20) NOT NULL,
+    price DECIMAL(10,2) NOT NULL CHECK (price >= 0),
+    category_id INT NOT NULL REFERENCES categories(id),
+    manufacturer_id INT NOT NULL REFERENCES manufacturers(id),
+    supplier_id INT NOT NULL REFERENCES suppliers(id),
+    discount_percent INT DEFAULT 0 CHECK (discount_percent >= 0 AND discount_percent <= 100),
+    stock_quantity INT NOT NULL CHECK (stock_quantity >= 0),
+    description TEXT,
+    photo_path VARCHAR(500)
+);
+
+-- Пункты выдачи
+CREATE TABLE pickup_points (
+    id SERIAL PRIMARY KEY,
+    address TEXT NOT NULL
+);
+
+-- Заказы
+CREATE TABLE orders (
+    id SERIAL PRIMARY KEY,
+    client_id INT NOT NULL REFERENCES users(id),
+    pickup_point_id INT NOT NULL REFERENCES pickup_points(id),
+    order_date DATE NOT NULL,
+    delivery_date DATE,
+    status VARCHAR(50) NOT NULL,
+    pickup_code VARCHAR(20)
+);
+
+-- Состав заказа
+CREATE TABLE order_items (
+    order_id INT NOT NULL REFERENCES orders(id) ON DELETE CASCADE,
+    product_article VARCHAR(20) NOT NULL REFERENCES products(article) ON DELETE RESTRICT,
+    quantity INT NOT NULL CHECK (quantity > 0),
+    PRIMARY KEY (order_id, product_article)
+);
+
+3. Импорт данных из CSV
+Используя pgAdmin → Import/Export или через SQL:
+
+-- ===========================================
+-- 1. Сначала импортируем справочники (независимые таблицы)
+-- ===========================================
+
+-- 1.1 Роли
+COPY roles(id, name) 
+FROM 'C:/путь/к/imports/roles.csv' 
+DELIMITER ',' 
+CSV HEADER;
+
+-- 1.2 Категории
+COPY categories(id, name) 
+FROM 'C:/путь/к/imports/categories.csv' 
+DELIMITER ',' 
+CSV HEADER;
+
+-- 1.3 Производители
+COPY manufacturers(id, name) 
+FROM 'C:/путь/к/imports/manufacturers.csv' 
+DELIMITER ',' 
+CSV HEADER;
+
+-- 1.4 Поставщики
+COPY suppliers(id, name) 
+FROM 'C:/путь/к/imports/suppliers.csv' 
+DELIMITER ',' 
+CSV HEADER;
+
+-- 1.5 Пункты выдачи
+COPY pickup_points(id, address) 
+FROM 'C:/путь/к/imports/pickup_points.csv' 
+DELIMITER ',' 
+CSV HEADER;
+
+-- ===========================================
+-- 2. Пользователи (зависит от roles)
+-- ===========================================
+COPY users(id, login, password_hash, full_name, role_id) 
+FROM 'C:/путь/к/imports/users.csv' 
+DELIMITER ',' 
+CSV HEADER;
+
+-- ===========================================
+-- 3. Товары (зависит от categories, manufacturers, suppliers)
+-- ===========================================
+COPY products(article, name, unit, price, category_id, manufacturer_id, supplier_id, discount_percent, stock_quantity, description, photo_path) 
+FROM 'C:/путь/к/imports/products.csv' 
+DELIMITER ',' 
+CSV HEADER
+NULL '';
+
+-- ===========================================
+-- 4. Заказы (зависит от users и pickup_points)
+-- ===========================================
+COPY orders(id, client_id, pickup_point_id, order_date, delivery_date, status, pickup_code) 
+FROM 'C:/путь/к/imports/orders.csv' 
+DELIMITER ',' 
+CSV HEADER;
+
+-- ===========================================
+-- 5. Состав заказов (зависит от orders и products) - ПОСЛЕДНИЙ!
+-- ===========================================
+COPY order_items(order_id, product_article, quantity) 
+FROM 'C:/путь/к/imports/order_items.csv' 
+DELIMITER ',' 
+CSV HEADER;
+
+-Если вы уже начали импорт и получили ошибку
+Очистите все таблицы и начните заново в правильном порядке:
+-- Очистка таблиц в обратном порядке (чтобы не нарушать связи)
+TRUNCATE TABLE order_items CASCADE;
+TRUNCATE TABLE orders CASCADE;
+TRUNCATE TABLE products CASCADE;
+TRUNCATE TABLE users CASCADE;
+TRUNCATE TABLE pickup_points CASCADE;
+TRUNCATE TABLE categories CASCADE;
+TRUNCATE TABLE manufacturers CASCADE;
+TRUNCATE TABLE suppliers CASCADE;
+TRUNCATE TABLE roles CASCADE;
+
+-- Сброс последовательностей (чтобы ID начинались с 1)
+ALTER SEQUENCE roles_id_seq RESTART WITH 1;
+ALTER SEQUENCE categories_id_seq RESTART WITH 1;
+ALTER SEQUENCE manufacturers_id_seq RESTART WITH 1;
+ALTER SEQUENCE suppliers_id_seq RESTART WITH 1;
+ALTER SEQUENCE pickup_points_id_seq RESTART WITH 1;
+ALTER SEQUENCE users_id_seq RESTART WITH 1;
+ALTER SEQUENCE orders_id_seq RESTART WITH 1;
+
+-Пошаговая проверка после каждого импорта
+После импорта каждой таблицы проверяйте, что данные загрузились:
+-- После импорта roles
+SELECT * FROM roles;  -- должно быть 3 строки
+
+-- После импорта categories
+SELECT * FROM categories;  -- должно быть 2 строки
+
+-- После импорта manufacturers
+SELECT * FROM manufacturers;  -- должно быть 6 строк
+
+-- После импорта suppliers
+SELECT * FROM suppliers;  -- должно быть 2 строки
+
+-- После импорта pickup_points
+SELECT * FROM pickup_points;  -- должно быть 19 строк
+
+-- После импорта users
+SELECT * FROM users;  -- должно быть 10 строк
+
+-- После импорта products
+SELECT COUNT(*) FROM products;  -- должно быть 28 строк
+
+-- После импорта orders
+SELECT COUNT(*) FROM orders;  -- должно быть 10 строк
+
+-- После импорта order_items
+SELECT COUNT(*) FROM order_items;  -- должно быть 20 строк
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
